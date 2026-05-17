@@ -231,7 +231,7 @@ export default function ResourcesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Need Help With Your Research?</h2>
           <p className="text-lg text-text-muted mb-8 max-w-2xl mx-auto">
-            Whether you need guidance on MD simulations, molecular docking, or ML applications — reach out for personalized support.
+            Whether you need guidance on MD simulations, molecular docking, or ML applications, reach out for personalized support.
           </p>
           <Link
             href="/contact"

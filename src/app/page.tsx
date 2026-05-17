@@ -18,7 +18,7 @@ export default function Home() {
             bioinfo//shivani
           </h1>
           <p className="text-lg md:text-xl text-white/70 max-w-2xl mx-auto">
-            Bioinformatics & Computational Biology Consulting — mentorship, research support, and training for students and professionals.
+            Bioinformatics & Computational Biology Consulting, mentorship, research support, and training for students and professionals.
           </p>
         </div>
       </section>
@@ -189,7 +189,7 @@ export default function Home() {
             <div className="text-accent font-medium text-sm mb-2">Research Services</div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Computational Biology &amp; Bioinformatics Services</h2>
             <p className="text-foreground/70 leading-relaxed max-w-3xl mx-auto">
-              End-to-end computational research support — from analysis and simulation to documentation and publication-ready reports. I handle the computational work so you can focus on your research goals.
+              End-to-end computational research support, from analysis and simulation to documentation and publication-ready reports. I handle the computational work so you can focus on your research goals.
             </p>
           </div>
 
@@ -313,7 +313,7 @@ export default function Home() {
                 University Rank 1 in both B.Sc. and M.Sc. Bioinformatics (BAMU). Published in Frontiers in Chemistry and INSPIRE Fellowship awardee (DST, Govt. of India).
               </p>
               <p className="text-foreground/70 leading-relaxed mb-6">
-                Trained over 5,000 researchers globally across 6 countries. Built Prostruct — an open-source 3D structure prediction tool. Called for Ph.D. interviews at IISc Bangalore, IISER Pune, IIT Bombay, and more.
+                Trained over 5,000 researchers globally across 6 countries. Built Prostruct, an open-source 3D structure prediction tool. Called for Ph.D. interviews at IISc Bangalore, IISER Pune, IIT Bombay, and more.
               </p>
               <Link href="/about" className="inline-block px-6 py-2.5 bg-primary text-white text-sm font-medium rounded-md hover:bg-primary-light transition-colors">
                 Learn More
@@ -328,7 +328,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Journey?</h2>
           <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
-            Whether you need guidance on a research project, want to learn a new skill, or are looking for mentorship — I&apos;m here to help.
+            Whether you need guidance on a research project, want to learn a new skill, or are looking for mentorship, I&apos;m here to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-accent text-white font-semibold rounded-md hover:bg-accent-hover transition-colors">

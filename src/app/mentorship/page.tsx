@@ -101,7 +101,7 @@ export default function MentorshipPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Ready to Get Started?</h2>
           <p className="text-lg text-text-muted mb-8 max-w-2xl mx-auto">
-            Whether you need guidance on a research project, technical debugging, or career mentorship — reach out and let&apos;s figure it out together.
+            Whether you need guidance on a research project, technical debugging, or career mentorship, reach out and let&apos;s figure it out together.
           </p>
           <Link
             href="/contact"

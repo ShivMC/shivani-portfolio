@@ -65,7 +65,7 @@ export default function AboutPage() {
                 <div className="space-y-4 text-foreground/70 leading-relaxed">
                   <p>
                     I come from a background where access to STEM opportunities and mentorship was very limited.
-                    Much of my journey has involved figuring things out on my own — spending extra time understanding
+                    Much of my journey has involved figuring things out on my own, spending extra time understanding
                     concepts, finding opportunities, and navigating research pathways that could have been much
                     smoother with proper guidance.
                   </p>
@@ -83,7 +83,7 @@ export default function AboutPage() {
                   </p>
                   <p>
                     Because of my own experience navigating STEM without a roadmap, it has always been important
-                    to me to support others on a similar path. That&apos;s why I&apos;m building this platform — to provide
+                    to me to support others on a similar path. That&apos;s why I&apos;m building this platform, to provide
                     structured, affordable mentorship and courses that I wish I had when I started.
                   </p>
                 </div>
@@ -369,7 +369,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-bold mb-3">Want to Work Together?</h2>
                 <p className="text-white/70 mb-6 max-w-lg mx-auto">
                   Whether you need help with a research project, want to enroll in a course, or are looking for
-                  computational consulting — I&apos;d love to connect.
+                  computational consulting, I&apos;d love to connect.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <Link
