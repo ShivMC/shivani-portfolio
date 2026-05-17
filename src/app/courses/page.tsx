@@ -32,6 +32,19 @@ export default function CoursesPage() {
         </div>
       </section>
 
+      {/* Partnership Banner */}
+      <section className="bg-surface border-b border-border-light">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-center">
+          <p className="text-sm text-foreground/70">
+            These courses are launched in partnership with{" "}
+            <a href="https://tibrresearch.com/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">
+              Tibr Biotech
+            </a>
+            {" "}and mentored by Shivani V. Pawar.
+          </p>
+        </div>
+      </section>
+
       {/* Filters & Courses */}
       <section className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
