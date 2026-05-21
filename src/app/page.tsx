@@ -23,6 +23,52 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Upcoming Event */}
+      <section className="py-12 md:py-16 bg-surface border-y border-border-light">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="bg-white rounded-xl p-8 md:p-10 border border-primary/20 shadow-lg relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -mr-20 -mt-20"></div>
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/5 rounded-full blur-3xl -ml-20 -mb-20"></div>
+            
+            <div className="relative z-10 flex flex-col md:flex-row gap-10 items-center">
+              <div className="flex-1">
+                <div className="inline-block bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full text-xs uppercase tracking-wider mb-4">
+                  Upcoming Event
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+                  Bioinformatics & Computational Biology Internship Program
+                </h2>
+                <p className="text-xl text-primary font-medium mb-6">
+                  🚀 Launching in June
+                </p>
+                
+                <h3 className="text-lg font-bold text-foreground mb-3">Program Features</h3>
+                <ul className="grid sm:grid-cols-2 gap-y-2 gap-x-4 mb-8 text-foreground/70">
+                  <li className="flex items-start gap-2"><Check className="w-5 h-5 text-accent shrink-0" /> Hands-on projects</li>
+                  <li className="flex items-start gap-2"><Check className="w-5 h-5 text-accent shrink-0" /> Research guidance</li>
+                  <li className="flex items-start gap-2"><Check className="w-5 h-5 text-accent shrink-0" /> Molecular docking</li>
+                  <li className="flex items-start gap-2"><Check className="w-5 h-5 text-accent shrink-0" /> Molecular dynamics simulations</li>
+                  <li className="flex items-start gap-2"><Check className="w-5 h-5 text-accent shrink-0" /> AI/ML basics in bioinformatics</li>
+                  <li className="flex items-start gap-2"><Check className="w-5 h-5 text-accent shrink-0" /> Practical workflow training</li>
+                </ul>
+                
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfANtzGZ4iVGIQh4cNBt_xcV3E8RaedS3bvs8y9PIXey8rveA/viewform?usp=header" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-primary text-white font-semibold rounded-md hover:bg-primary-light transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                >
+                  Register Interest / Join Waitlist
+                </a>
+              </div>
+              <div className="hidden md:flex flex-col items-center justify-center bg-primary/5 p-8 rounded-2xl border border-primary/10">
+                <div className="text-6xl mb-4">🧬</div>
+                <div className="text-5xl">💻</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Consulting Overview */}
       <section className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
