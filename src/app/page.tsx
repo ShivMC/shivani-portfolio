@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ArrowRight, GraduationCap, FlaskConical, FolderGit, FileText, Check } from "lucide-react"
+import UpcomingWebinar from "@/components/UpcomingWebinar"
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <UpcomingWebinar />
 
       {/* Upcoming Event */}
       <section className="py-12 md:py-16 bg-surface border-y border-border-light">
